@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">Weather Forecast</h1>
+        
+        <div class="input-container">
+            <input type="text" id="location-input" placeholder="Enter city name or zip code">
+            <button id="current-location-btn" title="Use current location">📍</button>
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div class="error-message" id="error-message"></div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+        </div>
+
+        <div class="weather-card" id="weather-card">
+            <div class="location-info">
+                <h2 class="location-name" id="location-name"></h2>
+                <span class="country" id="country"></span>
+            </div>
+            
+            <div class="temperature-container">
+                <div class="temperature" id="temperature"></div>
+                <img src="" alt="Weather icon" class="weather-icon" id="weather-icon">
+            </div>
+            
+            <div class="weather-condition" id="weather-condition"></div>
+            
+            <div class="weather-details">
+                <div class="detail">
+                    <span class="detail-label">Feels Like</span>
+                    <span class="detail-value" id="feels-like"></span>
+                </div>
+                <div class="detail">
+                    <span class="detail-label">Humidity</span>
+                    <span class="detail-value" id="humidity"></span>
+                </div>
+                <div class="detail">
+                    <span class="detail-label">Wind</span>
+                    <span class="detail-value" id="wind"></span>
+                </div>
+                <div class="detail">
+                    <span class="detail-label">UV Index</span>
+                    <span class="detail-value" id="uv"></span>
+                </div>
+            </div>
+            
+            <div class="air-quality" id="air-quality">
+                <h3 class="aqi-title">Air Quality</h3>
+                <div class="aqi-level" id="aqi-level"></div>
+                <p id="aqi-description"></p>
+            </div>
+            
+            <div class="last-updated" id="last-updated"></div>
+        </div>
+    </div>
+
+    <div id="weather-background"></div>
+    <script src="script.js"></script>
+</body>
+</html>
