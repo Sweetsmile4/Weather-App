@@ -1,5 +1,4 @@
 # Weather-App
-# Weather App
 
 ## Overview
 The Weather App is a dynamic application that provides real-time weather updates for any location. It fetches weather data from an API and updates the UI with corresponding animations, backgrounds, and temperature details.
@@ -53,4 +52,4 @@ The Weather App is a dynamic application that provides real-time weather updates
 Pull requests are welcome. For major changes, please open an issue first to discuss the changes.
 
 ## Contact
-For questions or feedback, visit [your GitHub profile](https://github.com/Sweetsmile4).
+For questions or feedback, visit [my GitHub profile](https://github.com/Sweetsmile4).
